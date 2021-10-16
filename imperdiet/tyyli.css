@@ -1,3 +1,54 @@
-h1 {
-  color: blue;
+* {
+  margin: 0;
+}
+nav {
+  display: flex;
+  background-color: #f2dbbc;
+  padding: 0.5% 0 0.5% 0.5%;
+  margin-bottom: 2%;
+}
+
+p {
+  padding: 0.5%;
+}
+footer {
+  background-color: #f2dbbc;
+}
+
+.navbar-link {
+  padding: 0 1% 0 1%;
+  border-style: solid;
+  border-color: black;
+  border-left: 10%;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-width: 1px;
+}
+.outer-ul {
+  float: right;
+  background-color: #f2dbbc;
+  border-style: dashed;
+}
+
+.kuvadiv {
+  margin: 3%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kuvateksti {
+  margin-top: 1%;
+}
+
+#first-navbar-link {
+  padding-left: 0;
+}
+#last-navbar-link {
+  border: none;
+}
+#piilotettu-otsikko {
+  display: none;
 }
