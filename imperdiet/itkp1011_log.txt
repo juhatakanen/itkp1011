@@ -1,0 +1,246 @@
+ Script started on Fri Oct 15 13:14:21 2021
+ bash-4.2$ tarkista
+ Tiedosto convallis.txt ei ole oikeassa kansiossa.
+ Tiedosto donec.txt ei ole oikeassa kansiossa.
+ Tiedosto lorem.txt ei ole oikeassa kansiossa.
+ tempor.txt	kyttj : lukuoikeus pit poistaa
+ tempor.txt	kyttj : suoritusoikeus puuttuu
+ tempor.txt	ryhm : kirjoitusoikeus puuttuu
+ tempor.txt	ryhm : suoritusoikeus puuttuu
+ tempor.txt	muut : suoritusoikeus puuttuu
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Kansio suscipit puuttuu
+ Kansio diam puuttuu
+ Kansio vivamus puuttuu
+ Komentorivitehtvsi on hyltty. Yrit uudelleen.
+ bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ lskista
+ itkp1011.txt  ohje.txt	porttitor  taso5.txt  tellus  venenatis
+ bash-4.2$ mkdir suscipit
+ bash-4.2$ cd suscipit/
+ bash-4.2$ mkdir diam vivamus
+ bash-4.2$ cd ..
+ bash-4.2$ ls venenatis/
+ luctus	tempor.txt  vestibulum
+ bash-4.2$ cd venenatis/vestibulum/
+ bash-4.2$ mv donec.txt ../../porttitor
+ bash-4.2$ cd .
+ bash-4.2$ ls
+ bash-4.2$ pwd
+ /tmp/juhmatta/venenatis/vestibulum
+ bash-4.2$ cd ~
+ bash-4.2$ ls
+ itkp1011.txt  ohje.txt	porttitor  suscipit  taso5.txt	tellus	venenatis
+ bash-4.2$ cp itkp1011.txt suscipit/convallis.txt
+ bash-4.2$ cd venenatis/luctus/
+ bash-4.2$ cd venenatis/luctus/
+>            p itkp1011.txt suscipit/convallis.txt
+>            d venenatis/luctus/
+>            p lorem.txt ../../tellus
+ bash-4.2$ cd ..
+ bash-4.2$ ls
+ luctus	tempor.txt  vestibulum
+ bash-4.2$ chmod a=x tempor.txt 
+ bash-4.2$ chmod u+w tempor.txt 
+ bash-4.2$ chmod g+rw tempor.txt 
+ bash-4.2$ chmod o+r tempor.txt 
+ bash-4.2$ ls -l
+ total 0
+ drwxr-xr-x. 2 juhmatta users 23 Oct 15 13:14 luctus
+ --wxrwxr-x. 1 juhmatta users  0 Oct 15 13:14 tempor.txt
+ drwxr-xr-x. 2 juhmatta users  6 Oct 15 13:17 vestibulum
+ bash-4.2$ tarkista
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Komentorivitehtvsi on hyvksytty arvosanalla 3
+ Muista lopettaa valmis tehtv exit-komennolla! 
+ c3c9469768c990d6648b6f9d08d72c4e7575d5c35e03e024bcdc50b6463d0786e584881477e21f1eaff9053b097d915aa14259272638e015221f8f1b602a0e98
+ bash-4.2$ wget http://www.filltext.com/?rows=1000&nro={index}&etunimi={firstName}&sukunimi={lastName}&email={email}&puhelinnumero={phone}&pituus={numberRange|150,200}&syntymaaika={date|10-01-1950,30-12-1999}&postinumero={zip}&kaupunki={city}&maa={country}&pretty=true
+ [1] 106149
+ [2] 106150
+ [3] 106151
+ [4] 106152
+ [5] 106153
+ [6] 106154
+ [7] 106156
+ [8] 106158
+ [9] 106159
+ bash: 10-01-1950,30-12-1999}: command not found
+ [10] 106160
+ [11] 106161
+ [2]   Done                    nro={index}
+ [3]   Done                    etunimi={firstName}
+ [4]   Done                    sukunimi={lastName}
+ [5]   Done                    email={email}
+ bash-4.2$ bash: 150,200}: command not found
+ --2021-10-15 13:21:59--  http://www.filltext.com/?rows=1000
+ Resolving www.filltext.com (www.filltext.com)... 52.5.82.174, 18.208.60.216, 54.159.116.102, ...
+ Connecting to www.filltext.com (www.filltext.com)|52.5.82.174|:80... connected.
+ HTTP request sent, awaiting response... 200 OK
+ Length: unspecified [application/json]
+ Saving to: index.html?rows=1000
+     [<=>                                                                                                                                                                                                                                                           ] 0           --.-K/s              
+>     [ <=>                                                                                                                                                                                                                                                          ] 3,001       --.-K/s   in 0s      
+ 2021-10-15 13:21:59 (99.1 MB/s) - index.html?rows=1000 saved [3001]
+ cat index.html\?rows\=1000 
+ [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}][1]   Done                    wget http://www.filltext.com/?rows=1000
+ [6]   Done                    puhelinnumero={phone}
+ [7]   Exit 127                pituus={numberRange | 150,200}
+ [8]   Exit 127                syntymaaika={date | 10-01-1950,30-12-1999}
+ [9]   Done                    postinumero={zip}
+ [10]-  Done                    kaupunki={city}
+ [11]+  Done                    maa={country}
+ bash-4.2$ wc index.html\?rows\=1000 
+    0    1 3001 index.html?rows=1000
+ bash-4.2$ grep -n sukunimi index.html\?rows\=1000 
+ bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ tarkista
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Komentorivitehtvsi on hyvksytty arvosanalla 3
+ Muista lopettaa valmis tehtv exit-komennolla! 
+ c3c9469768c990d6648b6f9d08d72c4e7575d5c35e03e024bcdc50b6463d0786e584881477e21f1eaff9053b097d915aa14259272638e015221f8f1b602a0e98
+ bash-4.2$ exit
+ Lopetetaan tehtv. Odota hetki.
+ exit
+ /tmp/juhmatta/
+  [-rw-r--r-- juhmatta]  itkp1011.txt
+  [-rw-r--r-- juhmatta]  ohje.txt
+  [drwxr-xr-x juhmatta]  porttitor
+   [-rw-r--r-- juhmatta]  donec.txt
+  [drwxr-xr-x juhmatta]  suscipit
+   [-rw-r--r-- juhmatta]  convallis.txt
+   [drwxr-xr-x juhmatta]  diam
+   [drwxr-xr-x juhmatta]  vivamus
+  [-rw-r--r-- juhmatta]  taso5.txt
+  [drwxr-xr-x juhmatta]  tellus
+   [-rw-r--r-- juhmatta]  lorem.txt
+  [drwxr-xr-x juhmatta]  venenatis
+      [-rw-r--r-- juhmatta]  index.html?rows=1000
+      [drwxr-xr-x juhmatta]  luctus
+       [-rw-r--r-- juhmatta]  lorem.txt
+      [--wxrwxr-x juhmatta]  tempor.txt
+      [drwxr-xr-x juhmatta]  vestibulum
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Komentorivitehtvsi on hyvksytty arvosanalla 3
+ Muista lopettaa valmis tehtv exit-komennolla! 
+ c3c9469768c990d6648b6f9d08d72c4e7575d5c35e03e024bcdc50b6463d0786e584881477e21f1eaff9053b097d915aa14259272638e015221f8f1b602a0e98

@@ -3,7 +3,7 @@
 }
 
 * {
-  font: "Georgia";
+  font-family: Georgia, serif;
   margin: 0;
 }
 nav {
@@ -53,30 +53,27 @@ td {
   padding: 0 1% 0 1%;
   border-style: solid;
   border-color: black;
-  border-left: 10%;
+  border-left: 10em;
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
   border-width: 1px;
 }
-.outer-ul {
+.ul {
   float: right;
   background-color: var(--main-bg-color);
   border-style: dashed;
   padding-right: 3%;
   margin-left: 0.5%;
 }
-.inner-ul {
-  list-style-type: none;
-}
 
 .kuvadiv {
   margin: 3%;
   width: fit-content;
-  width: -moz-fit-content;
+  /* width: -moz-fit-content; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 .kuvateksti {
