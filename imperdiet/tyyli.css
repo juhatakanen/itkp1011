@@ -1,10 +1,14 @@
+:root {
+  --main-bg-color: #f2dbbc;
+}
+
 * {
   font: "Georgia";
   margin: 0;
 }
 nav {
   display: flex;
-  background-color: #f2dbbc;
+  background-color: var(--main-bg-color);
   padding: 0.5% 0 0.5% 0.5%;
   margin-bottom: 2%;
 }
@@ -19,7 +23,21 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f2dbbc;
+  background-color: var(--main-bg-color);
+}
+table {
+  border: 6px solid;
+  border-collapse: collapse;
+}
+caption {
+}
+th,
+td {
+  border: 2px dotted;
+  /* border-top: 0;
+  border-right: 10px;
+  border-bottom: 0;
+  border-left: 0; */
 }
 
 .navbar-ul {
@@ -43,7 +61,7 @@ footer {
 }
 .outer-ul {
   float: right;
-  background-color: #f2dbbc;
+  background-color: var(--main-bg-color);
   border-style: dashed;
   padding-right: 3%;
   margin-left: 0.5%;
