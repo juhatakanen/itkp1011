@@ -76,6 +76,22 @@ td {
   /* justify-content: center; */
   align-items: center;
 }
+.diam-galleriadiv {
+  width: 50em;
+  display: flex;
+}
+.diamkuvadiv {
+  margin: 3%;
+  width: 340;
+  /* width: -moz-fit-content; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.diam-img {
+  height: 13em;
+}
 .kuvateksti {
   margin-top: 1%;
 }
