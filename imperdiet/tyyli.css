@@ -77,11 +77,12 @@ td {
   align-items: center;
 }
 .diam-galleriadiv {
-  width: 50em;
+  width: 70em;
   display: flex;
+  flex-wrap: wrap;
 }
 .diamkuvadiv {
-  margin: 3%;
+  margin: 2% 4% 2% 3.7%;
   width: 340;
   /* width: -moz-fit-content; */
   display: flex;
