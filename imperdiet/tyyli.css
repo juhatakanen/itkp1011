@@ -67,7 +67,7 @@ td {
   margin-left: 0.5%;
 }
 
-.kuvadiv {
+.etusivu-kuvadiv {
   margin: 3%;
   width: fit-content;
   /* width: -moz-fit-content; */
@@ -78,20 +78,24 @@ td {
 }
 .diam-galleriadiv {
   width: 70em;
+  height: 47em;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: -2%;
 }
 .diamkuvadiv {
-  margin: 2% 4% 2% 3.7%;
-  width: 340;
+  margin: 0% 4% 0% 3.7%;
+  /* width: 340; */
   /* width: -moz-fit-content; */
+  height: 0em;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
 }
 .diam-img {
-  height: 13em;
+  height: 12em;
 }
 .kuvateksti {
   margin-top: 1%;
