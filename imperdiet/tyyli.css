@@ -15,6 +15,9 @@ nav {
 h1 {
   margin-bottom: 1%;
 }
+h2 {
+  margin-top: 1%;
+}
 
 p {
   padding: 0.5%;
@@ -115,7 +118,7 @@ td {
   /* padding-left: 30%; */
 
   margin-left: 0.5%;
-  height: 100vh;
+  height: 100%;
 }
 .vivamus-video-preview {
   margin: 1em 0 1em 0;
@@ -132,4 +135,7 @@ td {
 }
 #piilotettu-otsikko {
   display: none;
+}
+#vivamus-aani-preview {
+  margin-top: 1em;
 }
