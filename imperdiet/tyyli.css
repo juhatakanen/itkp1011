@@ -101,6 +101,29 @@ td {
   margin-top: 1%;
 }
 
+.vivamus-main-div {
+  display: flex;
+}
+.vivamus-ul {
+  /* box-sizing: border-box; */
+  /* float: right; */
+  background-color: var(--main-bg-color);
+  border-style: none;
+  padding-top: 3%;
+  width: 15vw;
+  /* padding-right: 400%; */
+  /* padding-left: 30%; */
+
+  margin-left: 0.5%;
+  height: 100vh;
+}
+.vivamus-video-preview {
+  margin: 1em 0 1em 0;
+}
+.vivamus-youtube-link {
+  margin-bottom: 1em;
+}
+
 #first-navbar-link {
   padding-left: 0;
 }
