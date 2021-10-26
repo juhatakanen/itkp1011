@@ -94,14 +94,14 @@ form {
   margin: 0% 4% 0% 3.7%;
   /* width: 340; */
   /* width: -moz-fit-content; */
-  height: 0em;
+  /* height: 0em; */
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
 }
 .diam-img {
-  height: 12em;
+  /* height: 12em; */
 }
 .kuvateksti {
   margin-top: 1%;
