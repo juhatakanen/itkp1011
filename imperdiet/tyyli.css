@@ -6,12 +6,7 @@
   font-family: Georgia, serif;
   margin: 0;
 }
-nav {
-  /* display: flex; */
-  background-color: var(--main-bg-color);
-  padding: 0.5% 0 0.5% 0.5%;
-  margin-bottom: 2%;
-}
+
 h1 {
   margin-bottom: 1%;
 }
@@ -32,8 +27,7 @@ table {
   border: 6px solid;
   border-collapse: collapse;
 }
-caption {
-}
+
 th,
 td {
   border: 2px dotted;
@@ -46,16 +40,20 @@ form {
   display: inline;
 }
 
-.navbar-ul {
+.ul1 {
   width: 100%;
   /* list-style-type: none; */
   padding-left: 0;
+  /* display: flex; */
+  background-color: var(--main-bg-color);
+  padding: 0.5% 0 0.5% 0.5%;
+  margin-bottom: 2%;
 }
 
-.navbar-ul li {
+.ul1 li {
   display: inline;
 }
-.navbar-link {
+.ul1-link {
   padding: 0 1% 0 1%;
   border-style: solid;
   border-color: black;
@@ -64,7 +62,7 @@ form {
   border-left: 0;
   border-width: 1px;
 }
-.ul {
+.ul2 {
   float: right;
   background-color: var(--main-bg-color);
   border-style: dashed;
@@ -129,10 +127,10 @@ form {
   margin-bottom: 1em;
 }
 
-#first-navbar-link {
+#first-ul1-link {
   padding-left: 0;
 }
-#last-navbar-link {
+#last-ul1-link {
   border: none;
 }
 #piilotettu-otsikko {
@@ -143,22 +141,23 @@ form {
 }
 
 @media only screen and (max-width: 600px) {
-  .ul {
-    border-style: none;
-  }
-  .navbar-ul {
-    list-style-type: disc;
-  }
-  .navbar-ul li {
-    display: block;
-  }
-  .navbar-link {
-    border: none;
-  }
-  #first-navbar-link {
-    padding-left: 1%;
-  }
   #mobile-nav-div {
     display: flex;
+  }
+  .ul1 {
+    list-style-type: disc;
+    padding-left: 5%;
+  }
+  .ul1 li {
+    display: list-item;
+  }
+  .ul1-link {
+    border: none;
+  }
+  #first-ul1-link {
+    padding-left: 1%;
+  }
+  .ul2 {
+    border-style: none;
   }
 }
