@@ -5,8 +5,17 @@
 * {
   font-family: Georgia, serif;
   margin: 0;
+  box-sizing: border-box;
 }
-
+body {
+  width: 100vw;
+}
+html {
+  width: 100vw;
+}
+/* ul {
+  list-style-position: inside;
+} */
 h1 {
   margin-bottom: 1%;
 }
@@ -62,6 +71,12 @@ form {
   border-left: 0;
   border-width: 1px;
 }
+#vivamus-main-div {
+  display: flex;
+}
+#vivamus-left-div {
+  background-color: var(--main-bg-color);
+}
 .ul2 {
   float: right;
   background-color: var(--main-bg-color);
@@ -69,10 +84,13 @@ form {
   padding-right: 3%;
   margin-left: 0.5%;
 }
+.vivamus-ul2 {
+  display: none;
+}
 
 .etusivu-kuvadiv {
   margin: 3%;
-  width: fit-content;
+  width: auto;
   /* width: -moz-fit-content; */
   display: flex;
   flex-direction: column;
@@ -104,31 +122,27 @@ form {
   margin-top: 1%;
 }
 
-.vivamus-main-div {
-  display: flex;
-}
-.vivamus-ul {
-  /* box-sizing: border-box; */
-  /* float: right; */
-  background-color: var(--main-bg-color);
-  border-style: none;
-  padding-top: 3%;
-  width: 15vw;
-  /* padding-right: 400%; */
-  /* padding-left: 30%; */
-
-  margin-left: 0.5%;
-  height: 100%;
-}
+/* .vivamus-ul2 {
+  position: fixed;
+  float: left;
+} */
 .vivamus-video-preview {
   margin: 1em 0 1em 0;
+  /* Jos on pakko voi käyttää absoluuttisia kokoja kuten html-koodissa: */
+  /*   width: 560px;
+     height: 315px; */
+  /* Parempi on käyttää suhteellisia skaalautuvia mittoja. Täytyy myös säilyttää
+    oikea kuvasuhde. Videoissa yleisin kuvasuhde on 16:9 eli 0.5625  */
+    width: 90vw;
+    height: calc(90vw*0.5625) /* lasketaan oikea suhde */
 }
 .vivamus-youtube-link {
   margin-bottom: 1em;
 }
 
+
 #first-ul1-link {
-  padding-left: 0;
+  padding-left: 1;
 }
 #last-ul1-link {
   border: none;
@@ -140,24 +154,46 @@ form {
   margin-top: 1em;
 }
 
+@media print {
+  #mobile-nav-div {
+    display: none;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   #mobile-nav-div {
     display: flex;
+    justify-content: space-around;
+  }
+  #vivamus-left-div {
+    display: none;
+  }
+  .vivamus-ul2{
+    display: inherit;
+    padding-left: 1.2em;
+  }
+  .ul-divs {
+    height: 12em;
+    width: 17em;
+    background-color: var(--main-bg-color);
+  }
+  .ul1,
+  .ul2 {
+    float: unset;
+    padding: 0 0 0 1.2em;
   }
   .ul1 {
     list-style-type: disc;
-    padding-left: 5%;
   }
   .ul1 li {
     display: list-item;
   }
   .ul1-link {
     border: none;
-  }
-  #first-ul1-link {
-    padding-left: 1%;
+    padding: 0;
   }
   .ul2 {
     border-style: none;
   }
-}
+ 
