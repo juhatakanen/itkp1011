@@ -8,10 +8,10 @@
   box-sizing: border-box;
 }
 body {
-  width: 100vw;
+  width: 100%;
 }
 html {
-  width: 100vw;
+  /* width: auto; */
 }
 /* ul {
   list-style-position: inside;
@@ -133,16 +133,19 @@ form {
      height: 315px; */
   /* Parempi on käyttää suhteellisia skaalautuvia mittoja. Täytyy myös säilyttää
     oikea kuvasuhde. Videoissa yleisin kuvasuhde on 16:9 eli 0.5625  */
-    width: 90vw;
-    height: calc(90vw*0.5625) /* lasketaan oikea suhde */
+  width: 90vw;
+  height: calc(90vw * 0.5625); /* lasketaan oikea suhde */
 }
 .vivamus-youtube-link {
   margin-bottom: 1em;
 }
-
+#video {
+  width: 90vw;
+  height: calc(90vw * 0.5625);
+}
 
 #first-ul1-link {
-  padding-left: 1;
+  padding-left: 0em;
 }
 #last-ul1-link {
   border: none;
@@ -164,12 +167,13 @@ form {
 @media only screen and (max-width: 600px) {
   #mobile-nav-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 1em 0 1em;
   }
   #vivamus-left-div {
     display: none;
   }
-  .vivamus-ul2{
+  .vivamus-ul2 {
     display: inherit;
     padding-left: 1.2em;
   }
@@ -182,6 +186,7 @@ form {
   .ul2 {
     float: unset;
     padding: 0 0 0 1.2em;
+    /* margin: 0 0 0 1em; */
   }
   .ul1 {
     list-style-type: disc;
@@ -196,4 +201,4 @@ form {
   .ul2 {
     border-style: none;
   }
- 
+}
