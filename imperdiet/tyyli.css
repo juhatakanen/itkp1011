@@ -170,6 +170,7 @@ form {
     justify-content: space-between;
     margin: 0 1em 0 1em;
   }
+
   #vivamus-left-div {
     display: none;
   }
@@ -200,5 +201,30 @@ form {
   }
   .ul2 {
     border-style: none;
+  }
+
+  #diam-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .diam-galleriadiv {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex: 1;
+    margin: 2em;
+    margin-left: 7em;
+    width: 256px;
+  }
+
+  .diamkuvadiv {
+    display: flex;
+    width: 256px;
+    margin: 0 0 2em 0;
+    padding: 0;
+    border: 0;
+  }
+  #diam-kuva2 {
+    width: 150px;
   }
 }
