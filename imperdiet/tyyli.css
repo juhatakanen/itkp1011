@@ -168,7 +168,7 @@ form {
   #mobile-nav-div {
     display: flex;
     justify-content: space-between;
-    margin: 0 1em 0 1em;
+    margin: 1.8em 0.5em 0 0.5em;
   }
 
   #vivamus-left-div {
@@ -180,7 +180,7 @@ form {
   }
   .ul-divs {
     height: 12em;
-    width: 17em;
+    width: 12em;
     background-color: var(--main-bg-color);
   }
   .ul1,
@@ -203,6 +203,10 @@ form {
     border-style: none;
   }
 
+  .etusivu-img {
+    width: 23em;
+  }
+
   #diam-div {
     display: flex;
     flex-direction: column;
@@ -212,19 +216,32 @@ form {
     flex-wrap: nowrap;
     flex-direction: column;
     flex: 1;
-    margin: 2em;
-    margin-left: 7em;
+    margin: 2em 2em 0em 2em;
+    margin-left: 4em;
     width: 256px;
   }
 
   .diamkuvadiv {
     display: flex;
     width: 256px;
-    margin: 0 0 2em 0;
+    margin: 0 0 1.8em 0;
     padding: 0;
     border: 0;
   }
   #diam-kuva2 {
     width: 150px;
+  }
+  .vivamus-video-preview {
+    /* Jos on pakko voi käyttää absoluuttisia kokoja kuten html-koodissa: */
+    /*   width: 560px;
+       height: 315px; */
+    /* Parempi on käyttää suhteellisia skaalautuvia mittoja. Täytyy myös säilyttää
+      oikea kuvasuhde. Videoissa yleisin kuvasuhde on 16:9 eli 0.5625  */
+    width: 100vw;
+    height: calc(90vw * 0.5625); /* lasketaan oikea suhde */
+  }
+  #video {
+    width: 100vw;
+    height: calc(90vw * 0.5625);
   }
 }
