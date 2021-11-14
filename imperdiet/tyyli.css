@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #f2dbbc;
+  overflow-x: hidden;
 }
 
 * {
@@ -7,18 +8,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
 }
-html {
-  /* width: auto; */
-}
-/* ul {
-  list-style-position: inside;
-} */
+
 h1 {
   margin-bottom: 1%;
 }
+
 h2 {
   margin-top: 1%;
 }
@@ -26,34 +24,31 @@ h2 {
 p {
   padding: 0.5%;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--main-bg-color);
 }
+
 table {
-  border: 6px solid;
+  border: 0.3em solid;
   border-collapse: collapse;
 }
 
 th,
 td {
-  border: 2px dotted;
-  /* border-top: 0;
-  border-right: 10px;
-  border-bottom: 0;
-  border-left: 0; */
+  border: 0.2em dotted;
 }
+
 form {
   display: inline;
 }
 
 .ul1 {
   width: 100%;
-  /* list-style-type: none; */
   padding-left: 0;
-  /* display: flex; */
   background-color: var(--main-bg-color);
   padding: 0.5% 0 0.5% 0.5%;
   margin-bottom: 2%;
@@ -62,6 +57,7 @@ form {
 .ul1 li {
   display: inline;
 }
+
 .ul1-link {
   padding: 0 1% 0 1%;
   border-style: solid;
@@ -69,14 +65,17 @@ form {
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
-  border-width: 1px;
+  border-width: 0.1em;
 }
+
 #vivamus-main-div {
   display: flex;
 }
+
 #vivamus-left-div {
   background-color: var(--main-bg-color);
 }
+
 .ul2 {
   float: right;
   background-color: var(--main-bg-color);
@@ -84,6 +83,7 @@ form {
   padding-right: 3%;
   margin-left: 0.5%;
 }
+
 .vivamus-ul2 {
   display: none;
 }
@@ -91,12 +91,11 @@ form {
 .etusivu-kuvadiv {
   margin: 3%;
   width: auto;
-  /* width: -moz-fit-content; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
+
 .diam-galleriadiv {
   width: 70em;
   height: 47em;
@@ -105,54 +104,45 @@ form {
   margin-top: 2%;
   margin-bottom: -2%;
 }
+
 .diamkuvadiv {
   margin: 0% 4% 0% 3.7%;
-  /* width: 340; */
-  /* width: -moz-fit-content; */
-  /* height: 0em; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
-.diam-img {
-  /* height: 12em; */
-}
+
 .kuvateksti {
   margin-top: 1%;
 }
 
-/* .vivamus-ul2 {
-  position: fixed;
-  float: left;
-} */
 .vivamus-video-preview {
   margin: 1em 0 1em 0;
-  /* Jos on pakko voi käyttää absoluuttisia kokoja kuten html-koodissa: */
-  /*   width: 560px;
-     height: 315px; */
-  /* Parempi on käyttää suhteellisia skaalautuvia mittoja. Täytyy myös säilyttää
-    oikea kuvasuhde. Videoissa yleisin kuvasuhde on 16:9 eli 0.5625  */
-  width: 90vw;
-  height: calc(90vw * 0.5625); /* lasketaan oikea suhde */
+  width: 60vw;
+  height: calc(60vw * 0.5625);
 }
+
 .vivamus-youtube-link {
   margin-bottom: 1em;
 }
+
 #video {
-  width: 90vw;
-  height: calc(90vw * 0.5625);
+  width: 60vw;
+  height: calc(60vw * 0.5625);
 }
 
 #first-ul1-link {
   padding-left: 0em;
 }
+
 #last-ul1-link {
   border: none;
 }
+
 #piilotettu-otsikko {
   display: none;
 }
+
 #vivamus-aani-preview {
   margin-top: 1em;
 }
@@ -174,31 +164,37 @@ form {
   #vivamus-left-div {
     display: none;
   }
+
   .vivamus-ul2 {
     display: inherit;
     padding-left: 1.2em;
   }
+
   .ul-divs {
     height: 12em;
     width: 12em;
     background-color: var(--main-bg-color);
   }
+
   .ul1,
   .ul2 {
     float: unset;
     padding: 0 0 0 1.2em;
-    /* margin: 0 0 0 1em; */
   }
+
   .ul1 {
     list-style-type: disc;
   }
+
   .ul1 li {
     display: list-item;
   }
+
   .ul1-link {
     border: none;
     padding: 0;
   }
+
   .ul2 {
     border-style: none;
   }
@@ -228,18 +224,16 @@ form {
     padding: 0;
     border: 0;
   }
+
   #diam-kuva2 {
     width: 150px;
   }
+
   .vivamus-video-preview {
-    /* Jos on pakko voi käyttää absoluuttisia kokoja kuten html-koodissa: */
-    /*   width: 560px;
-       height: 315px; */
-    /* Parempi on käyttää suhteellisia skaalautuvia mittoja. Täytyy myös säilyttää
-      oikea kuvasuhde. Videoissa yleisin kuvasuhde on 16:9 eli 0.5625  */
     width: 100vw;
-    height: calc(90vw * 0.5625); /* lasketaan oikea suhde */
+    height: calc(90vw * 0.5625);
   }
+
   #video {
     width: 100vw;
     height: calc(90vw * 0.5625);
